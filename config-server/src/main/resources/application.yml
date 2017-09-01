@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liyiliuuu/
+          search-paths: respo
+      label: master
+server:
+  port: 8888
