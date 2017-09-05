@@ -40,9 +40,15 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
         <!--spring cloud bus 改造相关依赖-->
-        <dependency>
+        <!--这里是bus的RabbitMQ的依赖-->
+
+        <!--这里是bus的kafka实现的依赖--><!--<dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-kafka</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
