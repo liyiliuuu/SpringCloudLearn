@@ -4,6 +4,7 @@ eureka:
   instance:
     hostname: localhost
   client:
+    #以下两个参数是设置单节点服务注册中心，如果设置成true就可以保证自身也被作为服务注册
     register-with-eureka: false
     fetch-registry: false
     service-url:
